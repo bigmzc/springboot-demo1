@@ -13,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.baizhi.mapper")
 public class App {
     public static void main(String[] args) {
+        System.out.println("change in github");
         SpringApplication.run(App.class,args);
     }
 }
